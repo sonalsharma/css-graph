@@ -59,6 +59,7 @@ body {
   width: 7.3%;
 
   background-color: rgba(204, 204, 204, 0);
+
 }
 
 .chart__link,
@@ -127,6 +128,16 @@ transition: all 250ms linear;
   background-color: #87ceff;
 }
 
+.chart__item .chart__bar {
+
+    /* -ms-animation
+    -moz-animation
+    -o-animation */
+
+  -webkit-animation: slide-up 200ms linear;
+  animation: slide-up 200ms linear infinite;
+}
+
 .chart__count {
   display: inline-block;
   left: -2.3em;
@@ -165,4 +176,26 @@ transition: all 250ms linear;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top: 10px solid #000;
+}
+
+@-webkit-keyframes slide-up {
+
+  0% {
+    top:10em;
+  }
+
+  100% {
+    top:0;
+  }
+}
+
+@keyframes slide-up {
+
+  0% {
+    top:10em;
+  }
+
+  100% {
+    top:0;
+  }
 }
