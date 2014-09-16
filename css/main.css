@@ -94,6 +94,20 @@ body {
   background-color: rgba(127, 219, 255, 0.6);
 }
 
+.chart__item,
+.chart__item:link,
+.chart__item:visited {
+
+transition: all 250ms linear;
+
+}
+
+.chart__item:hover,
+.chart__item:focus,
+.chart__item:active {
+  background-color: #A8A8A8;
+}
+
 .chart__count {
   display: inline-block;
   left: -2.3em;
