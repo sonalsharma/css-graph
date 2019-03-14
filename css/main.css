@@ -135,7 +135,7 @@ transition: all 250ms linear;
     -o-animation */
 
   -webkit-animation: slide-up 200ms linear;
-  animation: slide-up 200ms linear infinite;
+  animation: slide-up 200ms linear 1;
 }
 
 .chart__count {
