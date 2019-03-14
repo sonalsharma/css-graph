@@ -1,2 +1,1 @@
-dsn1678-exercise-2
-==================
+Testing slideup animations and visual graphs in CSS
